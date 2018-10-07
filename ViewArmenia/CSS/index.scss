@@ -1,0 +1,186 @@
+header{
+	background-color: grey;
+	height: 60px;	
+	.menu{
+		background-color: #9adbd6;
+		width: 100%;
+		height: 60px;		
+
+	.menulist a{	
+		font-size: 18px;
+		color: white;
+		}
+	.logo{	
+		height: 40px;
+		margin: 20px 10px;		
+		}
+	button span{
+		color: white;
+		font-weight: bolder;
+		font-size: 40px;
+		}	
+	}
+}
+
+							// ------------------HEADER END-------------------
+@keyframes deviz{
+	0%{
+		transform: translate(0px);
+	}
+	25%{
+		transform: translateY(50px);
+	}
+	50%{
+		transform: translate(-70px);
+	}
+	100%{
+		transform: translateY(-70px);
+	}
+}
+.section{
+	width: 100%;	
+	height: 500px;
+	background-image: url(../Image/mainpic.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;		
+	h1, span{
+		font: 70px Georgia;
+		font-weight: bolder;
+		color: #ffa500;
+		letter-spacing: 2px;
+		text-align: center;
+		margin: 100px auto;
+		text-shadow: 5px 5px 15px white;
+		animation: deviz 10s linear infinite;
+		animation-direction: alternate-reverse;	
+	}
+	span{
+		color: white;
+		text-shadow: 5px 5px 15px orange;
+	}
+	h3, h4{
+		font-size: 22px;
+		color: white;
+		text-align: center;
+		margin-top: -50px;
+		text-shadow: 5px 5px 15px orange;
+	}
+	h4{
+		margin-top: 0px;
+	}
+}
+.sectionbr{
+		width: 100%;
+		height: 30px;
+		background-color: rgba(126,172,171, 0.7);
+		margin-top: -10px;		
+	}
+
+					// <!-- -------------------	BGPIC SECTION END ---------------------	 -->	
+
+.historical{	
+	height: auto;	
+	text-align: center;
+	background: linear-gradient(#FFFFFF, #CFF3FC);
+	h1{
+		text-align: center;
+		font-size: 25px;
+		margin-top: -2px;		
+		border-radius: 50%;	
+		padding: 15px;
+		background: linear-gradient(#a7c647, #d1e0ac);
+		color: white;
+		font-weight: bolder;
+		text-shadow: 5px 5px 15px orange;		
+	}	
+	.hist div{		
+		height: auto;
+		margin: 20px 20px;		
+		display: inline-block;	
+		text-align: center;	
+		border: 8px dotted #7eacabb3;
+		padding: 15px;	
+		background-color: white;
+
+		img{
+			width: inherit;
+			height: 200px;	
+			margin-bottom: 20px;				
+		}
+		p{
+			font-size: 12px;
+			font-weight: bolder;			
+		}
+		h3{
+			font-size: 20px;
+			color: orange;
+		}
+	}	
+	.rmbutton{
+		background-color: #7eacabb3;
+		font-weight: bolder;
+	}
+	.bigbutton{
+		background-color: #7eacabb3;
+		width: 30%;
+		font-weight: bolder;
+		font-size: 20px;
+		margin: 30px;
+		box-shadow: 5px 5px 15px white;
+	}	
+}	
+
+					// ------------------HISTORICAL END-----------------
+.toprate{
+	height: auto;	
+	text-align: center;
+	background: linear-gradient(#FFFFFF, #CFF3FC);
+	h1{
+		text-align: center;
+		font-size: 25px;	
+		margin-top: -2px;	
+		border-radius: 50%;	
+		padding: 15px;
+		background: linear-gradient(#a7c647, #d1e0ac);
+		color: white;
+		font-weight: bolder;
+		text-shadow: 5px 5px 15px orange;		
+	}	
+	.top div{		
+		height: auto;
+		margin: 20px 20px;		
+		display: inline-block;	
+		text-align: center;	
+		border: 8px dashed #7eacabb3;
+		padding: 15px;	
+		background-color: white;
+
+		img{
+			width: inherit;
+			height: 200px;	
+			margin-bottom: 20px;				
+		}
+		p{
+			font-size: 12px;
+			font-weight: bolder;			
+		}
+		h3{
+			font-size: 20px;
+			color: orange;
+		}
+	}	
+	.rmbutton{
+		background-color: #7eacabb3;
+	}	
+}
+
+					// --------------------------TOP END------------------------
+
+					
+					
+
+
+ 
+
+
+

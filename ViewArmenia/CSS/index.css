@@ -1,0 +1,228 @@
+header {
+  background-color: grey;
+  height: 60px;
+}
+
+header .menu {
+  background-color: #9adbd6;
+  width: 100%;
+  height: 60px;
+}
+
+header .menu .menulist a {
+  font-size: 18px;
+  color: white;
+}
+
+header .menu .logo {
+  height: 40px;
+  margin: 20px 10px;
+}
+
+header .menu button span {
+  color: white;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+@-webkit-keyframes deviz {
+  0% {
+    -webkit-transform: translate(0px);
+    transform: translate(0px);
+  }
+  25% {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+  }
+  50% {
+    -webkit-transform: translate(-70px);
+    transform: translate(-70px);
+  }
+  100% {
+    -webkit-transform: translateY(-70px);
+    transform: translateY(-70px);
+  }
+}
+
+@keyframes deviz {
+  0% {
+    -webkit-transform: translate(0px);
+    transform: translate(0px);
+  }
+  25% {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+  }
+  50% {
+    -webkit-transform: translate(-70px);
+    transform: translate(-70px);
+  }
+  100% {
+    -webkit-transform: translateY(-70px);
+    transform: translateY(-70px);
+  }
+}
+
+.section {
+  width: 100%;
+  height: 500px;
+  background-image: url(../Image/mainpic.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.section h1, .section span {
+  font: 70px Georgia;
+  font-weight: bolder;
+  color: #ffa500;
+  letter-spacing: 2px;
+  text-align: center;
+  margin: 100px auto;
+  text-shadow: 5px 5px 15px white;
+  -webkit-animation: deviz 10s linear infinite;
+  animation: deviz 10s linear infinite;
+  animation-direction: alternate-reverse;
+}
+
+.section span {
+  color: white;
+  text-shadow: 5px 5px 15px orange;
+}
+
+.section h3, .section h4 {
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  margin-top: -50px;
+  text-shadow: 5px 5px 15px orange;
+}
+
+.section h4 {
+  margin-top: 0px;
+}
+
+.sectionbr {
+  width: 100%;
+  height: 30px;
+  background-color: rgba(126, 172, 171, 0.7);
+  margin-top: -10px;
+}
+
+.historical {
+  height: auto;
+  text-align: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#CFF3FC));
+  background: -webkit-linear-gradient(#FFFFFF, #CFF3FC);
+  background: -o-linear-gradient(#FFFFFF, #CFF3FC);
+  background: linear-gradient(#FFFFFF, #CFF3FC);
+}
+
+.historical h1 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: -2px;
+  border-radius: 50%;
+  padding: 15px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#a7c647), to(#d1e0ac));
+  background: -webkit-linear-gradient(#a7c647, #d1e0ac);
+  background: -o-linear-gradient(#a7c647, #d1e0ac);
+  background: linear-gradient(#a7c647, #d1e0ac);
+  color: white;
+  font-weight: bolder;
+  text-shadow: 5px 5px 15px orange;
+}
+
+.historical .hist div {
+  height: auto;
+  margin: 20px 20px;
+  display: inline-block;
+  text-align: center;
+  border: 8px dotted #7eacabb3;
+  padding: 15px;
+  background-color: white;
+}
+
+.historical .hist div img {
+  width: inherit;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.historical .hist div p {
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+.historical .hist div h3 {
+  font-size: 20px;
+  color: orange;
+}
+
+.historical .rmbutton {
+  background-color: #7eacabb3;
+  font-weight: bolder;
+}
+
+.historical .bigbutton {
+  background-color: #7eacabb3;
+  width: 30%;
+  font-weight: bolder;
+  font-size: 20px;
+  margin: 30px;
+  -webkit-box-shadow: 5px 5px 15px white;
+  box-shadow: 5px 5px 15px white;
+}
+
+.toprate {
+  height: auto;
+  text-align: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#CFF3FC));
+  background: -webkit-linear-gradient(#FFFFFF, #CFF3FC);
+  background: -o-linear-gradient(#FFFFFF, #CFF3FC);
+  background: linear-gradient(#FFFFFF, #CFF3FC);
+}
+
+.toprate h1 {
+  text-align: center;
+  font-size: 25px;
+  margin-top: -2px;
+  border-radius: 50%;
+  padding: 15px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#a7c647), to(#d1e0ac));
+  background: -webkit-linear-gradient(#a7c647, #d1e0ac);
+  background: -o-linear-gradient(#a7c647, #d1e0ac);
+  background: linear-gradient(#a7c647, #d1e0ac);
+  color: white;
+  font-weight: bolder;
+  text-shadow: 5px 5px 15px orange;
+}
+
+.toprate .top div {
+  height: auto;
+  margin: 20px 20px;
+  display: inline-block;
+  text-align: center;
+  border: 8px dashed #7eacabb3;
+  padding: 15px;
+  background-color: white;
+}
+
+.toprate .top div img {
+  width: inherit;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.toprate .top div p {
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+.toprate .top div h3 {
+  font-size: 20px;
+  color: orange;
+}
+
+.toprate .rmbutton {
+  background-color: #7eacabb3;
+}
