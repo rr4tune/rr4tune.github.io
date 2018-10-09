@@ -1,24 +1,44 @@
 header{
-	background-color: grey;
-	height: 60px;	
+	background-color: grey;		
 	.menu{
 		background-color: #9adbd6;
 		width: 100%;
-		height: 60px;		
+		font-weight: bolder;
+		.droplang{
+			text-align: center;
+			border-radius: 40px;
+			img{
+				width: 15%;
+				margin-right: 10px;
+			}
+			.lang{
+				display: block;
+			}
+		}				
 
 	.menulist a{	
-		font-size: 18px;
-		color: white;
+		font-size: 16px;
+		color: #7eacab;
+		border-radius: 40px;
+		background-color: white;
+		margin-right: 10px;
+		text-align: center;
+		margin-bottom: 5px;
+		transition: 2s;
+		&:hover{
+			background-color: orange;
+			color: white;
+			box-shadow: 5px 5px 10px white;
+			}	
 		}
 	.logo{	
-		height: 40px;
-		margin: 20px 10px;		
+		height: 40px;				
 		}
 	button span{
 		color: white;
 		font-weight: bolder;
 		font-size: 40px;
-		}	
+		}			
 	}
 }
 
@@ -37,32 +57,31 @@ header{
 		transform: translateY(-70px);
 	}
 }
-.section{
-	width: 100%;	
+.section{	
 	height: 500px;
 	background-image: url(../Image/mainpic.jpg);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;		
 	h1, span{
-		font: 70px Georgia;
+		font: 65px Georgia;
 		font-weight: bolder;
-		color: #ffa500;
+		color: white;  ;
 		letter-spacing: 2px;
 		text-align: center;
 		margin: 100px auto;
-		text-shadow: 5px 5px 15px white;
+		text-shadow: 5px 5px 15px orange;
 		animation: deviz 10s linear infinite;
 		animation-direction: alternate-reverse;	
 	}
 	span{
-		color: white;
-		text-shadow: 5px 5px 15px orange;
+		color: #ffa500;
+		text-shadow: 5px 5px 15px white;
 	}
 	h3, h4{
-		font-size: 22px;
+		font-size: 20px;
 		color: white;
 		text-align: center;
-		margin-top: -50px;
+		margin-top: -60px;
 		text-shadow: 5px 5px 15px orange;
 	}
 	h4{
@@ -73,7 +92,7 @@ header{
 		width: 100%;
 		height: 30px;
 		background-color: rgba(126,172,171, 0.7);
-		margin-top: -10px;		
+		margin-top: -10px;	
 	}
 
 					// <!-- -------------------	BGPIC SECTION END ---------------------	 -->	
@@ -81,11 +100,11 @@ header{
 .historical{	
 	height: auto;	
 	text-align: center;
-	background: linear-gradient(#FFFFFF, #CFF3FC);
+	background: linear-gradient(#FFFFFF, #E8F8FC);
 	h1{
 		text-align: center;
 		font-size: 25px;
-		margin-top: -2px;		
+		margin-top: 10px;		
 		border-radius: 50%;	
 		padding: 15px;
 		background: linear-gradient(#a7c647, #d1e0ac);
@@ -93,40 +112,53 @@ header{
 		font-weight: bolder;
 		text-shadow: 5px 5px 15px orange;		
 	}	
+	p{
+		text-align: center;
+		padding: 10px 100px;
+		font-weight: bolder;
+	}
 	.hist div{		
 		height: auto;
-		margin: 20px 20px;		
+		margin: 15px 25px;		
 		display: inline-block;	
-		text-align: center;	
-		border: 8px dotted #7eacabb3;
-		padding: 15px;	
-		background-color: white;
+		text-align: center;				
+		background: linear-gradient(#A0D0DC, #F2CFA5, #a7c647, #d1e0ac);
+		border-radius: 20px;
 
 		img{
 			width: inherit;
-			height: 200px;	
-			margin-bottom: 20px;				
+			height: 200px;							
 		}
-		p{
-			font-size: 12px;
-			font-weight: bolder;			
-		}
+
 		h3{
 			font-size: 20px;
-			color: orange;
+			color: white;
+			padding: 10px;
+			font-weight: bolder;
+			text-shadow: 5px 5px 10px orange;			
 		}
 	}	
 	.rmbutton{
-		background-color: #7eacabb3;
+		background-color: rgba(235, 151, 51, 0.7);
 		font-weight: bolder;
+		margin: 15px 0px;		
+		box-shadow: 5px 5px 10px white;
+		border: none;
+		transition: 1s;
+		&:hover{
+			background-color: white;
+			color: orange;
+			box-shadow: 5px 5px 10px orange;
+		}		
 	}
-	.bigbutton{
-		background-color: #7eacabb3;
-		width: 30%;
+
+	.bigbutton{		
+		background-color: #7eacabb3;		
 		font-weight: bolder;
-		font-size: 20px;
+		font-size: 25px;
 		margin: 30px;
 		box-shadow: 5px 5px 15px white;
+		border: none;
 	}	
 }	
 
@@ -134,11 +166,11 @@ header{
 .toprate{
 	height: auto;	
 	text-align: center;
-	background: linear-gradient(#FFFFFF, #CFF3FC);
+	background: linear-gradient(#FFFFFF, #E8F8FC);
 	h1{
 		text-align: center;
 		font-size: 25px;	
-		margin-top: -2px;	
+		margin-top: 10px;	
 		border-radius: 50%;	
 		padding: 15px;
 		background: linear-gradient(#a7c647, #d1e0ac);
@@ -148,17 +180,21 @@ header{
 	}	
 	.top div{		
 		height: auto;
-		margin: 20px 20px;		
+		margin: 20px ;		
 		display: inline-block;	
 		text-align: center;	
-		border: 8px dashed #7eacabb3;
-		padding: 15px;	
+		border: 6px dotted #d1e0ac;		
 		background-color: white;
+		transition: 2s;
+		&:hover{
+			background: linear-gradient(#d1e0ac, #FFFFFF);	
+			border: 6px solid orange;		
+		}
 
 		img{
 			width: inherit;
-			height: 200px;	
-			margin-bottom: 20px;				
+			height: 150px;	
+			margin: 20px 0px;				
 		}
 		p{
 			font-size: 12px;
@@ -170,14 +206,89 @@ header{
 		}
 	}	
 	.rmbutton{
-		background-color: #7eacabb3;
-	}	
+		background-color: rgb(235, 151, 51);
+		font-weight: bolder;
+		margin: 15px 0px;		
+		box-shadow: 5px 5px 10px white;
+		border: none;
+		transition: 1s;
+		&:hover{
+			background-color: white;
+			color: orange;
+			box-shadow: 5px 5px 10px orange;
+		}
+	}
+	.bigbutton{
+		background-color: #7eacabb3;		
+		font-weight: bolder;
+		font-size: 25px;
+		margin: 25px;
+		box-shadow: 5px 5px 15px white;
+		border: none;
+	}			
 }
+
 
 					// --------------------------TOP END------------------------
 
 					
-					
+footer{		
+	background-image: url(../Image/footerbg.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	h1{
+		text-align: center;
+		font-size: 50px;
+		margin-top: 10px;			
+		color: white;
+		font-weight: bolder;
+		text-shadow: 5px 5px 15px orange;
+	}
+ 	form{
+ 		// display: inline-block;
+ 	}
+	label{
+		padding-top: 15px;
+		font-weight: bolder;
+		color: white;
+		}
+	.formbtn{
+		margin-top: 20px;
+		background-color: orange;
+		font-weight: bolder;
+		font-size: 20px;		
+		box-shadow: 5px 5px 15px white;
+		border: none;
+		margin-bottom: 20px;
+		}	
+	.contact {		
+		background-color: grey;
+		// display: inline-block;
+		ul{
+			list-style: none;
+		}
+		img{
+			width: 8%;
+			margin: 10px 25px;
+		}
+		span{
+			font-size: 20px;
+			font-weight: bolder;
+			color: white;			
+		}
+	}
+	.allrights{
+		// height: 40px;
+		background-color: #F3C685;
+		p{
+			font-size: 10px;
+			font-weight: bolder;
+						
+		}
+	}		
+}	
+
+				
 
 
  

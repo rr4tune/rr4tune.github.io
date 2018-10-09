@@ -1,22 +1,49 @@
 header {
   background-color: grey;
-  height: 60px;
 }
 
 header .menu {
   background-color: #9adbd6;
   width: 100%;
-  height: 60px;
+  font-weight: bolder;
+}
+
+header .menu .droplang {
+  text-align: center;
+  border-radius: 40px;
+}
+
+header .menu .droplang img {
+  width: 15%;
+  margin-right: 10px;
+}
+
+header .menu .droplang .lang {
+  display: block;
 }
 
 header .menu .menulist a {
-  font-size: 18px;
+  font-size: 16px;
+  color: #7eacab;
+  border-radius: 40px;
+  background-color: white;
+  margin-right: 10px;
+  text-align: center;
+  margin-bottom: 5px;
+  -webkit-transition: 2s;
+  -o-transition: 2s;
+  transition: 2s;
+}
+
+header .menu .menulist a:hover {
+  background-color: orange;
   color: white;
+  -webkit-box-shadow: 5px 5px 10px white;
+  box-shadow: 5px 5px 10px white;
 }
 
 header .menu .logo {
   height: 40px;
-  margin: 20px 10px;
 }
 
 header .menu button span {
@@ -64,7 +91,6 @@ header .menu button span {
 }
 
 .section {
-  width: 100%;
   height: 500px;
   background-image: url(../Image/mainpic.jpg);
   background-repeat: no-repeat;
@@ -72,28 +98,28 @@ header .menu button span {
 }
 
 .section h1, .section span {
-  font: 70px Georgia;
+  font: 65px Georgia;
   font-weight: bolder;
-  color: #ffa500;
+  color: white;
   letter-spacing: 2px;
   text-align: center;
   margin: 100px auto;
-  text-shadow: 5px 5px 15px white;
+  text-shadow: 5px 5px 15px orange;
   -webkit-animation: deviz 10s linear infinite;
   animation: deviz 10s linear infinite;
   animation-direction: alternate-reverse;
 }
 
 .section span {
-  color: white;
-  text-shadow: 5px 5px 15px orange;
+  color: #ffa500;
+  text-shadow: 5px 5px 15px white;
 }
 
 .section h3, .section h4 {
-  font-size: 22px;
+  font-size: 20px;
   color: white;
   text-align: center;
-  margin-top: -50px;
+  margin-top: -60px;
   text-shadow: 5px 5px 15px orange;
 }
 
@@ -111,16 +137,16 @@ header .menu button span {
 .historical {
   height: auto;
   text-align: center;
-  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#CFF3FC));
-  background: -webkit-linear-gradient(#FFFFFF, #CFF3FC);
-  background: -o-linear-gradient(#FFFFFF, #CFF3FC);
-  background: linear-gradient(#FFFFFF, #CFF3FC);
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#E8F8FC));
+  background: -webkit-linear-gradient(#FFFFFF, #E8F8FC);
+  background: -o-linear-gradient(#FFFFFF, #E8F8FC);
+  background: linear-gradient(#FFFFFF, #E8F8FC);
 }
 
 .historical h1 {
   text-align: center;
   font-size: 25px;
-  margin-top: -2px;
+  margin-top: 10px;
   border-radius: 50%;
   padding: 15px;
   background: -webkit-gradient(linear, left top, left bottom, from(#a7c647), to(#d1e0ac));
@@ -132,60 +158,79 @@ header .menu button span {
   text-shadow: 5px 5px 15px orange;
 }
 
+.historical p {
+  text-align: center;
+  padding: 10px 100px;
+  font-weight: bolder;
+}
+
 .historical .hist div {
   height: auto;
-  margin: 20px 20px;
+  margin: 15px 25px;
   display: inline-block;
   text-align: center;
-  border: 8px dotted #7eacabb3;
-  padding: 15px;
-  background-color: white;
+  background: -webkit-gradient(linear, left top, left bottom, from(#A0D0DC), color-stop(#F2CFA5), color-stop(#a7c647), to(#d1e0ac));
+  background: -webkit-linear-gradient(#A0D0DC, #F2CFA5, #a7c647, #d1e0ac);
+  background: -o-linear-gradient(#A0D0DC, #F2CFA5, #a7c647, #d1e0ac);
+  background: linear-gradient(#A0D0DC, #F2CFA5, #a7c647, #d1e0ac);
+  border-radius: 20px;
 }
 
 .historical .hist div img {
   width: inherit;
   height: 200px;
-  margin-bottom: 20px;
-}
-
-.historical .hist div p {
-  font-size: 12px;
-  font-weight: bolder;
 }
 
 .historical .hist div h3 {
   font-size: 20px;
-  color: orange;
+  color: white;
+  padding: 10px;
+  font-weight: bolder;
+  text-shadow: 5px 5px 10px orange;
 }
 
 .historical .rmbutton {
-  background-color: #7eacabb3;
+  background-color: rgba(235, 151, 51, 0.7);
   font-weight: bolder;
+  margin: 15px 0px;
+  -webkit-box-shadow: 5px 5px 10px white;
+  box-shadow: 5px 5px 10px white;
+  border: none;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+.historical .rmbutton:hover {
+  background-color: white;
+  color: orange;
+  -webkit-box-shadow: 5px 5px 10px orange;
+  box-shadow: 5px 5px 10px orange;
 }
 
 .historical .bigbutton {
   background-color: #7eacabb3;
-  width: 30%;
   font-weight: bolder;
-  font-size: 20px;
+  font-size: 25px;
   margin: 30px;
   -webkit-box-shadow: 5px 5px 15px white;
   box-shadow: 5px 5px 15px white;
+  border: none;
 }
 
 .toprate {
   height: auto;
   text-align: center;
-  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#CFF3FC));
-  background: -webkit-linear-gradient(#FFFFFF, #CFF3FC);
-  background: -o-linear-gradient(#FFFFFF, #CFF3FC);
-  background: linear-gradient(#FFFFFF, #CFF3FC);
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#E8F8FC));
+  background: -webkit-linear-gradient(#FFFFFF, #E8F8FC);
+  background: -o-linear-gradient(#FFFFFF, #E8F8FC);
+  background: linear-gradient(#FFFFFF, #E8F8FC);
 }
 
 .toprate h1 {
   text-align: center;
   font-size: 25px;
-  margin-top: -2px;
+  margin-top: 10px;
   border-radius: 50%;
   padding: 15px;
   background: -webkit-gradient(linear, left top, left bottom, from(#a7c647), to(#d1e0ac));
@@ -199,18 +244,28 @@ header .menu button span {
 
 .toprate .top div {
   height: auto;
-  margin: 20px 20px;
+  margin: 20px;
   display: inline-block;
   text-align: center;
-  border: 8px dashed #7eacabb3;
-  padding: 15px;
+  border: 6px dotted #d1e0ac;
   background-color: white;
+  -webkit-transition: 2s;
+  -o-transition: 2s;
+  transition: 2s;
+}
+
+.toprate .top div:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#d1e0ac), to(#FFFFFF));
+  background: -webkit-linear-gradient(#d1e0ac, #FFFFFF);
+  background: -o-linear-gradient(#d1e0ac, #FFFFFF);
+  background: linear-gradient(#d1e0ac, #FFFFFF);
+  border: 6px solid orange;
 }
 
 .toprate .top div img {
   width: inherit;
-  height: 200px;
-  margin-bottom: 20px;
+  height: 150px;
+  margin: 20px 0px;
 }
 
 .toprate .top div p {
@@ -224,5 +279,90 @@ header .menu button span {
 }
 
 .toprate .rmbutton {
+  background-color: #eb9733;
+  font-weight: bolder;
+  margin: 15px 0px;
+  -webkit-box-shadow: 5px 5px 10px white;
+  box-shadow: 5px 5px 10px white;
+  border: none;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+.toprate .rmbutton:hover {
+  background-color: white;
+  color: orange;
+  -webkit-box-shadow: 5px 5px 10px orange;
+  box-shadow: 5px 5px 10px orange;
+}
+
+.toprate .bigbutton {
   background-color: #7eacabb3;
+  font-weight: bolder;
+  font-size: 25px;
+  margin: 25px;
+  -webkit-box-shadow: 5px 5px 15px white;
+  box-shadow: 5px 5px 15px white;
+  border: none;
+}
+
+footer {
+  background-image: url(../Image/footerbg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+footer h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 10px;
+  color: white;
+  font-weight: bolder;
+  text-shadow: 5px 5px 15px orange;
+}
+
+footer label {
+  padding-top: 15px;
+  font-weight: bolder;
+  color: white;
+}
+
+footer .formbtn {
+  margin-top: 20px;
+  background-color: orange;
+  font-weight: bolder;
+  font-size: 20px;
+  -webkit-box-shadow: 5px 5px 15px white;
+  box-shadow: 5px 5px 15px white;
+  border: none;
+  margin-bottom: 20px;
+}
+
+footer .contact {
+  background-color: grey;
+}
+
+footer .contact ul {
+  list-style: none;
+}
+
+footer .contact img {
+  width: 8%;
+  margin: 10px 25px;
+}
+
+footer .contact span {
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+}
+
+footer .allrights {
+  background-color: #F3C685;
+}
+
+footer .allrights p {
+  font-size: 10px;
+  font-weight: bolder;
 }
