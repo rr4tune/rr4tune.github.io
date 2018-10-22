@@ -43,7 +43,7 @@ header{
 }
 .section1, .section2{
 	text-align: center;
-	margin-top: 10px;
+	margin-top: 10px;	
 	h1{
 		font-size:  30px;
 		font-weight: bolder;
@@ -75,7 +75,6 @@ header{
 .penopl{
 	background: linear-gradient(#FFFFFF, #72231F);
 	margin-top: 30px;
-
 	p{
 		font-size: 16px;
 		font-weight: bolder;
@@ -87,7 +86,7 @@ header{
 	}
 	img{
 		width: 600px;
-		height: 210px;
+		height: 232px;
 	}
 }
 .penoplast{	
@@ -105,7 +104,42 @@ header{
 	}
 }
 
+									
+										// first, second end
 
+footer{
+	height: 250px;
+	background-color: #001837;
+	margin-top: 20px;	
+	h1{
+		font-size: 25px;
+		color: white;		
+		padding-top: 30px;		
+		font-weight: bolder;
+		margin-left: 100px;		
+	}
+
+	ul{
+		list-style-type: none;
+		margin-left: 100px;
+	}
+
+	li{
+		padding-top: 10px;
+	}
+	img{
+		width: 40px;
+		height: 40px;				
+	}
+	span{		
+		color: white;
+		font-size: 15px;		
+	}
+	.map{		
+		height: 220px;	
+		margin-top: 15px;		
+	}
+}
 
 	
 

@@ -1,0 +1,73 @@
+header{		
+	.menu{
+		background-color: #001837;
+		width: 100%;
+
+	.menulist a{
+		font: 16px Georgia;	
+		font-weight: bolder;		
+		color: white;
+		border-radius: 40px;		
+		margin-right: 10px;		
+		transition: 1s;
+		margin-bottom: 10px;
+		text-align: center;
+		&:hover{
+			background-color:#72231F;
+			color: white;
+			box-shadow: 5px 5px 10px white;
+			}
+		}
+
+	.logo{	
+		height: 80px;
+		margin-left: 26px;
+		box-shadow: 5px 5px 15px white;				
+		}
+	button span{
+		font: 50px Georgia;
+		font-weight: bolder;		
+		color: #40729B;	
+		text-align: center;		
+		}			
+	}	
+}
+							// <!-- 				HEADER END 						-->
+
+.prof, .catalog{	
+	h3{
+		font-size:  30px;
+		font-weight: bolder;
+		color: #001837;
+		text-align: center;		
+		border: 4px solid #72231F;
+		border-radius: 30px;
+		padding: 5px;
+		text-shadow: 5px 5px 20px #001837;
+	}
+}
+
+.catalog{
+	h3{
+		border: none;
+		font-size: 20px;
+	}	
+}
+
+.apranqner{
+	background: linear-gradient(#D6E2FD, white);
+	margin-top: 10px;
+	img{
+		width: 50px;
+		height: 180px;
+		margin-top: 30px;			
+	}
+	ul{		
+		padding-top: 5px;	
+		padding-left: 70px;	
+	}
+	li{
+		font-size: 12px;
+		font-weight: bolder;
+	}
+}							
