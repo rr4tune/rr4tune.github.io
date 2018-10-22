@@ -78,6 +78,7 @@ header .menu button span {
 .titan img {
   width: 500px;
   height: 300px;
+  margin-bottom: 20px;
 }
 
 .penopl {
@@ -102,6 +103,7 @@ header .menu button span {
 .penopl img {
   width: 600px;
   height: 232px;
+  margin-bottom: 20px;
 }
 
 .penoplast h3 {
@@ -119,7 +121,7 @@ header .menu button span {
 }
 
 footer {
-  height: 250px;
+  height: 260px;
   background-color: #001837;
   margin-top: 20px;
 }
@@ -129,12 +131,10 @@ footer h1 {
   color: white;
   padding-top: 30px;
   font-weight: bolder;
-  margin-left: 100px;
 }
 
 footer ul {
   list-style-type: none;
-  margin-left: 100px;
 }
 
 footer li {
@@ -153,5 +153,5 @@ footer span {
 
 footer .map {
   height: 220px;
-  margin-top: 15px;
+  margin-top: 30px;
 }

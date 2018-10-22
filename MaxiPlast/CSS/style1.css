@@ -38,7 +38,7 @@ header .menu button span {
 }
 
 .prof h3, .catalog h3 {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bolder;
   color: #001837;
   text-align: center;
@@ -63,13 +63,14 @@ header .menu button span {
 
 .apranqner img {
   width: 50px;
-  height: 180px;
+  height: 200px;
   margin-top: 30px;
 }
 
 .apranqner ul {
   padding-top: 5px;
   padding-left: 70px;
+  padding-top: 20px;
 }
 
 .apranqner li {
