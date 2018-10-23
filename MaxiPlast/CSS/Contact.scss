@@ -1,0 +1,70 @@
+header{		
+	.menu{
+		background-color: #001837;
+		width: 100%;
+
+	.menulist a{
+		font: 16px Georgia;	
+		font-weight: bolder;		
+		color: white;
+		border-radius: 40px;		
+		margin-right: 10px;		
+		transition: 1s;
+		margin-bottom: 10px;
+		text-align: center;
+		&:hover{
+			background-color:#72231F;
+			color: white;
+			box-shadow: 5px 5px 10px white;
+			}
+		}
+
+	.logo{	
+		height: 80px;
+		margin-left: 26px;
+		box-shadow: 5px 5px 15px white;				
+		}
+	button span{
+		font: 50px Georgia;
+		font-weight: bolder;		
+		color: #40729B;	
+		text-align: center;		
+		}			
+	}	
+}
+							// <!-- 				HEADER END 						-->
+
+
+
+.contact{
+	width: 100%;
+	text-align: center;
+	background: linear-gradient(#001837, #FFFFFF);
+	h2{		
+		color: white;	
+		padding: 5px;
+		text-transform: uppercase;
+	}
+}
+
+.cont{
+	list-style-type: none;
+	padding: 40px;
+	border: 4px dotted red;
+	text-align: center;
+	li{
+		font-size: 30px;
+		color: #001837;
+		font-weight: bolder;
+	}
+}
+
+.rights{
+	background-color: #001837;	
+	p{
+		font-size: 20px;
+		color: white;
+		padding-left: 50px;		
+	}
+}
+							

@@ -1,0 +1,58 @@
+header .menu {
+  background-color: #001837;
+  width: 100%; }
+  header .menu .menulist a {
+    font: 16px Georgia;
+    font-weight: bolder;
+    color: white;
+    border-radius: 40px;
+    margin-right: 10px;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+    margin-bottom: 10px;
+    text-align: center; }
+    header .menu .menulist a:hover {
+      background-color: #72231F;
+      color: white;
+      -webkit-box-shadow: 5px 5px 10px white;
+      box-shadow: 5px 5px 10px white; }
+  header .menu .logo {
+    height: 80px;
+    margin-left: 26px;
+    -webkit-box-shadow: 5px 5px 15px white;
+    box-shadow: 5px 5px 15px white; }
+  header .menu button span {
+    font: 50px Georgia;
+    font-weight: bolder;
+    color: #40729B;
+    text-align: center; }
+
+.contact {
+  width: 100%;
+  text-align: center;
+  background: -webkit-gradient(linear, left top, left bottom, from(#001837), to(#FFFFFF));
+  background: -webkit-linear-gradient(#001837, #FFFFFF);
+  background: -o-linear-gradient(#001837, #FFFFFF);
+  background: linear-gradient(#001837, #FFFFFF); }
+  .contact h2 {
+    color: white;
+    padding: 5px;
+    text-transform: uppercase; }
+
+.cont {
+  list-style-type: none;
+  padding: 40px;
+  border: 4px dotted red;
+  text-align: center; }
+  .cont li {
+    font-size: 30px;
+    color: #001837;
+    font-weight: bolder; }
+
+.rights {
+  background-color: #001837; }
+  .rights p {
+    font-size: 20px;
+    color: white;
+    padding-left: 50px; }
