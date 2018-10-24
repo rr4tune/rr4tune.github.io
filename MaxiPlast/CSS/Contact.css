@@ -17,6 +17,10 @@ header .menu {
       color: white;
       -webkit-box-shadow: 5px 5px 10px white;
       box-shadow: 5px 5px 10px white; }
+  header .menu .active {
+    background-color: #72231F;
+    -webkit-box-shadow: 5px 5px 10px white;
+    box-shadow: 5px 5px 10px white; }
   header .menu .logo {
     height: 80px;
     margin-left: 26px;
@@ -35,17 +39,17 @@ header .menu {
   background: -o-linear-gradient(#001837, #FFFFFF);
   background: linear-gradient(#001837, #FFFFFF); }
   .contact ul {
-    margin-top: 100px; }
+    margin-top: 50px; }
     .contact ul li {
       font-size: 25px;
       color: #001837;
       font-weight: bolder;
       list-style-type: none;
-      margin-top: 30px;
-      -webkit-box-shadow: 5px 5px 15px #72231F;
-      box-shadow: 5px 5px 15px #72231F;
+      margin-top: 10px;
+      -webkit-box-shadow: -5px -5px 15px #72231F;
+      box-shadow: -5px -5px 15px #72231F;
       text-shadow: 5px 5px 15px white;
-      padding: 10px; }
+      padding-top: 20px; }
       .contact ul li img {
         width: 50px;
         height: 50px; }
@@ -59,3 +63,7 @@ header .menu {
     font-size: 14px;
     font-weight: bolder;
     color: #001837; }
+
+footer {
+  position: absolute;
+  bottom: 0px; }

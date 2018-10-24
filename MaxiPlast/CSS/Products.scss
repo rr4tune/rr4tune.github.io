@@ -18,6 +18,11 @@ header{
 			box-shadow: 5px 5px 10px white;
 			}
 		}
+		
+	.active{
+		background-color: #72231F;
+		box-shadow: 5px 5px 10px white;
+	}
 
 	.logo{	
 		height: 80px;
@@ -44,6 +49,7 @@ header{
 		border-radius: 30px;
 		padding: 5px;
 		text-shadow: 5px 5px 20px #001837;
+		text-transform: uppercase;
 	}
 }
 
@@ -71,14 +77,19 @@ header{
 		font-size: 12px;
 		font-weight: bolder;
 	}
-}							
+}
 
-
-	.rights{		
-		background: linear-gradient(#001837, white);		
-		span{
-			font-size: 14px;
-			font-weight: bolder;
-			color: #001837;
-		}
+.pagination{
+	ul{
+		text-align: center;
 	}
+}
+
+.rights{		
+	background: linear-gradient(#001837, white);		
+	span{
+		font-size: 14px;
+		font-weight: bolder;
+		color: #001837;
+	}
+}

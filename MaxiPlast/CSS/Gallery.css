@@ -17,6 +17,10 @@ header .menu {
       color: white;
       -webkit-box-shadow: 5px 5px 10px white;
       box-shadow: 5px 5px 10px white; }
+  header .menu .active {
+    background-color: #72231F;
+    -webkit-box-shadow: 5px 5px 10px white;
+    box-shadow: 5px 5px 10px white; }
   header .menu .logo {
     height: 80px;
     margin-left: 26px;
