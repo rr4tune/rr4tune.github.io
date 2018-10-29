@@ -1,0 +1,72 @@
+header {
+  background-color: grey; }
+  header .menu {
+    background-color: #9adbd6;
+    width: 100%;
+    font-weight: bolder; }
+    header .menu .droplang {
+      text-align: center;
+      border-radius: 40px; }
+      header .menu .droplang img {
+        width: 15%;
+        margin-right: 10px; }
+      header .menu .droplang .lang {
+        display: block; }
+    header .menu .menulist a {
+      font-size: 16px;
+      color: #7eacab;
+      border-radius: 40px;
+      background-color: white;
+      margin-right: 10px;
+      text-align: center;
+      margin-bottom: 5px;
+      -webkit-transition: 2s;
+      -o-transition: 2s;
+      transition: 2s; }
+      header .menu .menulist a:hover {
+        background-color: orange;
+        color: white;
+        -webkit-box-shadow: 5px 5px 10px white;
+        box-shadow: 5px 5px 10px white; }
+    header .menu .logo {
+      height: 40px; }
+    header .menu button span {
+      color: white;
+      font-weight: bolder;
+      font-size: 40px; }
+
+.tournames {
+  margin-top: 40px; }
+  .tournames ul {
+    list-style-type: none;
+    margin-left: -50px; }
+    .tournames ul li {
+      background: -webkit-gradient(linear, left top, left bottom, from(#7eacab), to(#F5D395));
+      background: -webkit-linear-gradient(#7eacab, #F5D395);
+      background: -o-linear-gradient(#7eacab, #F5D395);
+      background: linear-gradient(#7eacab, #F5D395);
+      font-weight: bolder;
+      -webkit-box-shadow: 0 0 15px rgba(33, 33, 33, 0.2);
+      box-shadow: 0 0 15px rgba(33, 33, 33, 0.2);
+      padding: 10px 20px;
+      margin-bottom: 15px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 14px; }
+
+.tourinfo {
+  margin-top: 40px;
+  text-align: center; }
+  .tourinfo table {
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    font-size: 14px; }
+  .tourinfo th, .tourinfo tr, .tourinfo td {
+    border: 1px solid black;
+    background: -webkit-gradient(linear, left top, left bottom, from(#7eacab), to(#F5D395));
+    background: -webkit-linear-gradient(#7eacab, #F5D395);
+    background: -o-linear-gradient(#7eacab, #F5D395);
+    background: linear-gradient(#7eacab, #F5D395);
+    font-weight: bolder;
+    text-align: center; }

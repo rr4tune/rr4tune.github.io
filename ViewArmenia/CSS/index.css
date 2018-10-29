@@ -244,7 +244,7 @@ header .menu button span {
 
 .toprate .top div {
   height: auto;
-  margin: 20px;
+  margin: 10px;
   display: inline-block;
   text-align: center;
   border: 6px dotted #d1e0ac;
@@ -313,17 +313,17 @@ footer {
   background-size: 100% 100%;
 }
 
-footer h1 {
+footer h3 {
   text-align: center;
   font-size: 50px;
-  margin-top: 10px;
+  margin-top: 15px;
   color: white;
   font-weight: bolder;
   text-shadow: 5px 5px 15px orange;
 }
 
 footer label {
-  padding-top: 15px;
+  padding-top: 10px;
   font-weight: bolder;
   color: white;
 }
@@ -339,21 +339,26 @@ footer .formbtn {
   margin-bottom: 20px;
 }
 
-footer .contact {
-  background-color: grey;
+footer .formbtn:hover {
+  background-color: white;
+  color: orange;
+  -webkit-box-shadow: 5px 5px 10px orange;
+  box-shadow: 5px 5px 10px orange;
 }
 
 footer .contact ul {
   list-style: none;
+  text-align: center;
+  margin-top: 40px;
 }
 
 footer .contact img {
-  width: 8%;
+  width: 6%;
   margin: 10px 25px;
 }
 
 footer .contact span {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bolder;
   color: white;
 }

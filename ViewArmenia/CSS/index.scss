@@ -15,7 +15,7 @@ header{
 				display: block;
 			}
 		}				
-
+	
 	.menulist a{	
 		font-size: 16px;
 		color: #7eacab;
@@ -180,12 +180,12 @@ header{
 	}	
 	.top div{		
 		height: auto;
-		margin: 20px ;		
+		margin: 10px ;		
 		display: inline-block;	
 		text-align: center;	
 		border: 6px dotted #d1e0ac;		
 		background-color: white;
-		transition: 2s;
+		transition: 2s;		
 		&:hover{
 			background: linear-gradient(#d1e0ac, #FFFFFF);	
 			border: 6px solid orange;		
@@ -236,19 +236,17 @@ footer{
 	background-image: url(../Image/footerbg.jpg);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	h1{
+	h3{
 		text-align: center;
 		font-size: 50px;
-		margin-top: 10px;			
+		margin-top: 15px;			
 		color: white;
 		font-weight: bolder;
 		text-shadow: 5px 5px 15px orange;
 	}
- 	form{
- 		// display: inline-block;
- 	}
+
 	label{
-		padding-top: 15px;
+		padding-top: 10px;
 		font-weight: bolder;
 		color: white;
 		}
@@ -260,19 +258,24 @@ footer{
 		box-shadow: 5px 5px 15px white;
 		border: none;
 		margin-bottom: 20px;
+		&:hover{
+			background-color: white;
+			color: orange;
+			box-shadow: 5px 5px 10px orange;
+			}
 		}	
 	.contact {		
-		background-color: grey;
-		// display: inline-block;
 		ul{
 			list-style: none;
+			text-align: center;
+			margin-top: 40px;			
 		}
 		img{
-			width: 8%;
+			width: 6%;
 			margin: 10px 25px;
 		}
 		span{
-			font-size: 20px;
+			font-size: 25px;
 			font-weight: bolder;
 			color: white;			
 		}
@@ -282,8 +285,7 @@ footer{
 		background-color: #F3C685;
 		p{
 			font-size: 10px;
-			font-weight: bolder;
-						
+			font-weight: bolder;						
 		}
 	}		
 }	
