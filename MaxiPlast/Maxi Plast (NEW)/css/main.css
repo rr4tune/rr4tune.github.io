@@ -574,6 +574,13 @@ textarea#message{
   margin-top: 20px;
 }
 
+@media only screen and (max-width: 767px){
+  .gallery img{
+    min-height: 150px;
+    max-height: 150px;
+  }
+}
+
 
 
 /*/404 page css/*/ 
