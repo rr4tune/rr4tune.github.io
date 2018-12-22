@@ -394,6 +394,7 @@ body > section {
 #services h2{
   text-transform: uppercase;
   color: #fff;
+  margin-bottom: 30px;
 }
 #services a{
   font-size: 20px;
@@ -419,6 +420,12 @@ body > section {
   border-radius: 8px;
   margin: 0 0 30px;
   text-align: left;
+}
+
+@media only screen and (max-width: 767px){
+  .services-wrap {
+    min-height: unset;
+  }
 }
 
 .services-wrap h4 {
@@ -455,9 +462,8 @@ body > section {
 
 .gmap{
     border: 10px solid #f6f5f0;
-    border-radius: 50%;
-    height: 500px;
-    width: 500px;
+    border-radius: 5%;
+    width: 60%;
     box-shadow: 0px 0px 3px 3px #e7e4dc;
     overflow: hidden;
     position: relative;
@@ -467,7 +473,7 @@ body > section {
 @media only screen and (max-width: 767px){
   .gmap {
     width: 100%;
-    height: 300px;
+    border-radius: 5%;
   }
 }
 
@@ -538,6 +544,36 @@ textarea#message{
 #contact-page .contact-wrap {
   margin-top: 20px;
 }
+
+/*GALLERY*/
+
+.video, .gallery{
+  background: repeating-radial-gradient(#F7F3F3 , white 5%);  
+}
+
+.video div, .gallery div{  
+  text-align: center;
+}
+
+.video h1, .gallery h1{
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: #72231f;
+}
+
+.video img{
+  width: 100%;
+  margin-top: 20px;
+  /*margin-bottom: 20px;*/
+}
+
+.gallery img{
+  width: 100%;
+  max-height: 150px;
+  min-height: 150px;
+  margin-top: 20px;
+}
+
 
 
 /*/404 page css/*/ 
