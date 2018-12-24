@@ -547,6 +547,10 @@ textarea#message{
 
 /*GALLERY*/
 
+.video video{
+  margin: 40px auto;
+}
+
 .video, .gallery{
   background: repeating-radial-gradient(#F7F3F3 , white 5%);  
 }
@@ -562,9 +566,11 @@ textarea#message{
 }
 
 .video img{
-  width: 100%;
-  margin-top: 20px;
-  /*margin-bottom: 20px;*/
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 220px;
+  max-height: 220px;
+  margin-top: 50px;
 }
 
 .gallery img{
@@ -627,13 +633,3 @@ textarea#message{
     padding-left: 20px;
   }
 }
-
-
-
-
-
-
-
-
-
-
