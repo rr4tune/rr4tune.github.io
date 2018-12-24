@@ -184,8 +184,8 @@ body > section {
 #main-slider {
   position: relative;
   background-color: #001837;
-  border-bottom: 6px dotted white;
-  border-top: 6px dotted white;
+  border-bottom: 8px ridge white;
+  border-top: 8px ridge white;
 }
 
 .no-margin {
@@ -222,7 +222,7 @@ body > section {
 #main-slider .carousel .item:first-child {
   top: auto;
   position: relative;
-  height: 350px;
+  height: 400px;
 }
 
 
@@ -311,7 +311,7 @@ body > section {
 
 #feature { 
   background: repeating-radial-gradient(#F7F3F3 , white 5%);
-  border-bottom: 10px dotted #001837;  
+  border-bottom: 8px ridge #001837;  
 }
 
 #feature h2{
