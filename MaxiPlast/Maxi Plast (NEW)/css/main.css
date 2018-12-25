@@ -547,7 +547,7 @@ textarea#message{
 
 /*GALLERY*/
 
-.video video{
+.video iframe{
   margin: 40px auto;
 }
 
