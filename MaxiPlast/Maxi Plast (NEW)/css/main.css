@@ -28,6 +28,12 @@ body > section {
   box-shadow: 5px 5px 15px white; 
 }
 
+@media only screen and (max-width: 767px){
+  .logo {
+    height: 40px;
+  }
+}
+
 .navbar {
   border-radius: 0;  
   background: #001837;
@@ -37,7 +43,7 @@ body > section {
 }
 
  .navbar-nav {
-  margin-top: 15px;
+  margin: 0;
 }
 
 .navbar-nav>li {
@@ -177,6 +183,21 @@ body > section {
 .navbar-inverse {
   border-top: 0;
   padding-bottom: 0;
+  margin: 0;<footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 contact">
+                   <p><i class="fa fa-phone"> +374 55 896666</i></p> 
+                   <p><i class="fa fa-envelope"> maxi_plast@mail.ru</i></p>
+                   <p><i class="fa fa-map-marker">Армения,Ереван, ул.Мамиконянц 36</i></p>      
+                </div>
+            </div>
+
+            <div class="col-12 rights">
+                <script>new Date().getFullYear()>2017 && document.write(new Date().getFullYear()+ ' &copy;');</script> Макси Пласт Все права защищены.                    
+            </div>            
+        </div>
+    </footer>
 }
 
 /*/Home Page/*/
@@ -447,6 +468,21 @@ body > section {
   margin-right: 20px;
 }
 
+.top {
+width: 50px;
+text-decoration: none;
+text-align:center;
+position:fixed;
+bottom: 180px;
+right: 20px;
+cursor:pointer;
+}
+
+.top:hover{
+  text-decoration: none;
+}
+
+/*CONTACT*/
 
 .gmap-area { 
   background-position: 0 0;
@@ -551,6 +587,15 @@ textarea#message{
   margin: 40px auto;
 }
 
+@media only screen and (max-width: 991px){
+  .video video{
+    width: 100%;
+    min-height: 250px;
+    max-height: 250px;
+  }
+}
+
+
 .video, .gallery{
   background: repeating-radial-gradient(#F7F3F3 , white 5%);  
 }
@@ -573,6 +618,39 @@ textarea#message{
   margin-top: 50px;
 }
 
+@media only screen and (max-width: 991px){
+  .video img{
+    width: 100%;
+    min-height: 270px;
+    max-height: 270px;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .video img{
+    width: 100%;
+    min-height: 250px;
+    max-height: 250px;
+  }
+}
+
+@media only screen and (max-width: 557px){
+  .video img{
+    width: 100%;
+    min-height: 180px;
+    max-height: 180px;
+  }
+}
+
+@media only screen and (max-width: 420px){
+  .video img{
+    width: 100%;
+    min-height: 160px;
+    max-height: 160px;
+  }
+}
+
+
 .gallery img{
   width: 100%;
   max-height: 150px;
@@ -582,10 +660,28 @@ textarea#message{
 
 @media only screen and (max-width: 767px){
   .gallery img{
-    min-height: 150px;
-    max-height: 150px;
+    width: 100%;
+    min-height: 250px;
+    max-height: 250px;
   }
 }
+
+@media only screen and (max-width: 557px){
+  .gallery img{
+    width: 100%;
+    min-height: 180px;
+    max-height: 180px;
+  }
+}
+
+@media only screen and (max-width: 420px){
+  .gallery img{
+    width: 100%;
+    min-height: 120px;
+    max-height: 120px;
+  }
+}
+
 
 
 
@@ -630,6 +726,6 @@ textarea#message{
 
 @media only screen and (max-width: 767px){
   #footer{
-    padding-left: 20px;
+    /*padding-left: 20px;*/
   }
 }
