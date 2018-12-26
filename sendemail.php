@@ -5,10 +5,10 @@
 		'message'=>'Thank you for contact us. As early as possible  we will contact you '
 	);
 
-    $name = @trim(stripslashes($_POST['name'])); 
-    $email = @trim(stripslashes($_POST['email'])); 
-    $subject = @trim(stripslashes($_POST['subject'])); 
-    $message = @trim(stripslashes($_POST['message'])); 
+    $name = @trim(stripslashes($_GET['name'])); 
+    $email = @trim(stripslashes($_GET['email'])); 
+    $subject = @trim(stripslashes($_GET['subject'])); 
+    $message = @trim(stripslashes($_GET['message'])); 
 
     $email_from = $email;
     $email_to = 'maxi_plast@mail.ru';
