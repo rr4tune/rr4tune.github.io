@@ -1,142 +1,425 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="RU">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Maxi Plast</title>   
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet">
-    <link href="css/jquery.fancybox.min.css" rel="stylesheet">    
-    <link href="css/main.css" rel="stylesheet">     
-    <link rel="shortcut icon" href="images/ico/favicon.ico"> 
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>AUTOMOTIVE</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="AUTOMOTIVE">
+<meta name="keywords" content="auto, car, vehicle, diller">
+<link rel="icon" href="#" type="image/x-icon">
+<link rel="shortcut icon" href="#" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="stylesheet/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="stylesheet/font-awesome.css" media="all">
+<link rel="stylesheet" type="text/css" href="stylesheet/bootstrap-select.css">
+<link rel="stylesheet" type="text/css" href="stylesheet/revslider.css" >
+<link rel="stylesheet" type="text/css" href="stylesheet/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="stylesheet/owl.theme.css">
+<link rel="stylesheet" type="text/css" href="stylesheet/jquery.bxslider.css">
+<link rel="stylesheet" type="text/css" href="stylesheet/jquery.mobile-menu.css">
+<link rel="stylesheet" type="text/css" href="stylesheet/style.css" media="all">
+<link rel="stylesheet" type="text/css" href="stylesheet/responsive.css" media="all">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,700italic,400,600,700,800' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Teko:300,400,500,600,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Saira+Condensed:300,400,500,600,700,800" rel="stylesheet">
 </head>
 
 <body>
-
-    <header id="header">
-        <nav class="navbar navbar-inverse menu" role="banner">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">                      
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html"><img class="logo" src="images/Logo.png" alt="logo"></a>
-                </div>
-                
-                <div class="collapse navbar-collapse navbar-right">
-                    <ul class="nav navbar-nav">
-                        <li><a href="index.html">главная</a></li>
-                        <li><a href="about-us.html">продукция</a></li>
-                        <li><a href="gallery.html">галерея</a></li>
-                        <li class="active"><a href="contact-us.html">контакты</a></li>                        
-                    </ul>
-                </div>
+<div id="page">
+    <header>
+    <div class="container">
+      <div class="row">
+        <div id="header">
+          <div class="header-container">
+            <div class="header-logo"> 
+              <a href="index.html" title="AUTOMOTIVE" class="logo">
+                <div><img src="images/logo.png" alt="logo"></div>
+              </a> 
             </div>
-        </nav>      
-    </header>
 
-    <section id="contact-info">
-        <div class="center">                
-            <h2>нас можете найти по адресу</h2>            
-        </div>
-        <div class="gmap-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 text-center">
-                        <div class="gmap">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d380.87387026405514!2d44.521245929832446!3d40.20926398760744!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abd353363fe9b%3A0x4451d8e0d6ec3fc0!2zMzYgTWFtaWtvbmlhbnRjIHBva2hvYywgWWVyZXZhbiwg0JDRgNC80LXQvdC40Y8!5e0!3m2!1sru!2s!4v1545397627291" frameborder="0" style="border:0" allowfullscreen></iframe>                     
-                        </div>
+            <div class="header__nav">
+              <div class="header-banner">
+                <div class="col-lg-6 col-xs-12 col-sm-6 col-md-6">
+                  <div class="assetBlock">
+                    <div style="height: 20px; overflow: hidden;" id="slideshow">
+                      <p style="display: block;"> +374 00 000000</p>
+                      <p style="display: none;"> +374 00 000000</p>
                     </div>
+                  </div>
+                </div>                
+              </div>
 
-                  
-                </div>
 
-                <div class="row">
-                    <div class="col-sm-12 map-content">
-                        <ul class="row">
-                            <li class="col-sm-12">
-                                <address>
-                                    <h5>Армения, г. Ереван, Мамиконянца 36 </h5>
-                                </address>                               
-                            </li>                            
-                        </ul>
+              <div class="fl-nav-menu">
+                <nav>
+                  <div class="mm-toggle-wrap">
+                    <div class="mm-toggle"><i class="fa fa-bars"></i><span class="mm-label">Menu</span> 
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>  <!--/gmap_area -->
+                  </div>
 
-    <section id="contact-page">
-        <div class="container">
-            <div class="center">        
-                <h2>обратная связь</h2>
+                  <div class="nav-inner">
+                    <ul id="nav" class="hidden-xs">
+                      <li class="active"> 
+                        <a class="level-top" href="index.html"><span>главная</span></a>
+                      </li>
+
+                      <li class="level0"> 
+                        <a class="level-top" href="about-us.html"><span>о нас</span></a>
+                      </li>
+
+                      <li class="level0"> 
+                        <a class="level-top" href="#"><span>блог</span></a> 
+                      </li>
+
+                      <li class="level0"> 
+                        <a class="level-top" href="#"> <span>контакты</span></a>
+                      </li>
+                    </ul>                   
+                  </div>
+                </nav>
+              </div>
             </div> 
-            <div class="row contact-wrap"> 
-                <div class="status alert alert-success" style="display: none"></div>
-                <form id="main-contact-form" class="contact-form" name="contact-form" method="get" action="sendemail.php">
-                    <div class="col-sm-5 col-sm-offset-1">
-                        <div class="form-group">
-                            <label>Ваше имя *</label>
-                            <input type="text" name="name" class="form-control" required="required">
-                        </div>
-                        <div class="form-group">
-                            <label>Email *</label>
-                            <input type="email" name="email" class="form-control" required="required">
-                        </div>
-                        <div class="form-group">
-                            <label>Телефон</label>
-                            <input type="number" class="form-control">
-                        </div>
-                        <div class="form-group">
-                            <label>Компания</label>
-                            <input type="text" class="form-control">
-                        </div>                        
-                    </div>
-                    <div class="col-sm-5">
-                        <div class="form-group">
-                            <label>Тема *</label>
-                            <input type="text" name="subject" class="form-control" required="required">
-                        </div>
-                        <div class="form-group">
-                            <label>Сообщение *</label>
-                            <textarea name="message" id="message" required="required" class="form-control" rows="8"></textarea>
-                        </div>                        
-                        <div class="form-group">
-                            <button type="submit" name="submit" required="required">Отправить</button>
-                        </div>
-                    </div>
-                </form> 
-            </div><!--/.row-->
-        </div><!--/.container-->
-    </section><!--/#contact-page-->
-
-    
-
-    <footer id="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 contact">
-                   <p><i class="fa fa-phone"> +374 55 896666</i></p> 
-                   <p><i class="fa fa-envelope"> maxi_plast@mail.ru</i></p>
-                   <p><i class="fa fa-map-marker">Армения,Ереван, ул.Мамиконянц 36</i></p>      
-                </div>
-            </div>
-
-            <div class="col-12 rights">
-                <script>new Date().getFullYear()>2017 && document.write(new Date().getFullYear()+ ' &copy;');</script> Макси Пласт Все права защищены.                    
-            </div>            
+          </div>
         </div>
-    </footer>
+      </div>
+    </div>
+  </header>
 
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.fancybox.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/wow.min.js"></script>
+
+
+    <div class="page-heading1">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="page-title"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ 
+  <div class="main-container col2-right-layout">
+    <div class="main container">
+      <div class="row">
+        <div class="col-main col-sm-6 wow bounceInUp animated animated" style="visibility: visible;">
+          <div id="messages_product_view"></div>
+          <form action="#" id="contactForm" method="post">
+            <div class="static-contain">
+              <fieldset class="group-select">
+                <ul>
+                  <li id="billing-new-address-form">
+                    <fieldset class="">
+                      <ul>
+                        <li>
+                          <div class="customer-name">
+                            <div class="input-box name-firstname">
+                              <label for="name"><em class="required">*</em>ИМЯ</label>
+                              <br>
+                              <input name="name" id="name" title="Name" value="ИМЯ" class="input-text required-entry" type="text">
+                            </div>
+                            <div class="input-box name-firstname">
+                              <label for="email"><em class="required">*</em>ЭЛ.АДРЕС</label>
+                              <br>
+                              <input name="email" id="email" title="Email" value="ЭЛ.АДРЕС" class="input-text required-entry validate-email" type="text">
+                            </div>
+                          </div>
+                        </li>
+                        <li>
+                          <label for="telephone">ТЕЛЕФОН</label>
+                          <br>
+                          <input name="telephone" id="telephone" title="Telephone" value="" class="input-text" type="text">
+                        </li>
+                        <li>
+                          <label for="comment"><em class="required">*</em>СООБЩЕНИЕ</label>
+                          <br>
+                          <textarea name="comment" id="comment" title="Comment" class="required-entry input-text" cols="5" rows="3"></textarea>
+                        </li>
+                      </ul>
+                    </fieldset>
+                  </li>
+                  <input type="text" name="hideit" id="hideit" value="" style="display:none !important;">
+                  <div class="buttons-set">
+                    <button type="submit" title="Submit" class="button submit">
+                      <span>отправить</span>
+                    </button>
+                  </div>
+                </ul>
+              </fieldset>
+            </div>
+          </form>
+        </div>
+        <div class="col-sm-6 map wow bounceInUp animated animated">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1524.6247402830832!2d44.53996578351883!3d40.158998746922585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x406abdb5172e0a67%3A0x63bc858d26436d4!2sAutomotive!5e0!3m2!1sru!2s!4v1582494215938!5m2!1sru!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+ 
+ 
+ 
+  </div>
+  
+  
+  <footer> 
+    <div class="footer-inner">
+      <div class="our-features-box wow bounceInUp animated animated">
+        <div class="container">
+          <ul>
+            <li>
+              <div class="feature-box">
+                <div class="icon-truck"><img src="images/world-icon.png" alt="Image"></div>
+                <div class="content">
+                  <h6>САМЫЙ БОЛЬШОЙ АВТОПОРТАЛ</h6>                  
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="feature-box">
+                <div class="icon-support"><img src="images/car-sold-icon.png" alt="Image"></div>
+                <div class="content">
+                  <h6>ПРОДАЖА МАШИН <br> КАЖДЫЕ 15 МИНУТ</h6>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="feature-box">
+                <div class="icon-money"><img src="images/tag-icon.png" alt="Image"></div>
+                <div class="content">
+                  <h6>БУДЬ ИНФОРМИРОВАН <br> ПЛАТИ МЕНЬШЕ</h6>
+                </div>
+              </div>
+            </li>
+
+            <li class="last">
+              <div class="feature-box">
+                <div class="icon-return"><img src="images/compare-icon.png" alt="Image"></div>
+                <div class="content">
+                  <h6>ПРАВИЛЬНОЕ СРАВНЕНИЕ <br> ЛУЧШЕЕ РЕШЕНИЕ</h6>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-xs-12 col-lg-12">
+            <div class="co-info">
+              <address>
+              <div>
+                <span>Армения, Ереван, ул. Давид Бек 107 / 11</span>
+              </div>
+              <div> 
+                <span> +374 00 000000</span>
+              </div>
+              <div> 
+                <span> +374 00 000000</span>
+              </div>
+              <div> 
+                <span>info@automotive.am</span>
+              </div>
+              <div> 
+                <span>linker</span>
+              </div>
+              
+              </address>
+            </div>
+          </div>         
+        </div>
+      </div>
+    </div>
+ </footer>
+  
+</div>
+<!--page-->
+<!-- Mobile Menu-->
+<div id="mobile-menu">
+  <ul>
+        <li>
+      <div class="mm-search">
+        <form id="search1" name="search">
+          <div class="input-group">
+            <div class="input-group-btn">
+              <button class="btn btn-default" type="submit"><i class="fa fa-search"></i> </button>
+            </div>
+            <input type="text" class="form-control simple" placeholder="Search ..." name="srch-term" id="srch-term">
+          </div>
+        </form>
+      </div>
+    </li>
+     <li class="active"> <a class="level-top" href="#"><span>Home</span></a></li>
+    <li><a href="grid1.html">Accessories</a>
+      <!--mega menu-->
+                                <ul class="level0">
+                                  <li class="level3 nav-6-1 parent item"> <a href="grid.html"><span>Audio</span></a> 
+                                    <!--sub sub category-->
+                                    <ul class="level1">
+                                      <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Amplifiers</span></a> </li>
+                                      <!--level2 nav-6-1-1-->
+                                      <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Installation Parts</span></a> </li>
+                                      <!--level2 nav-6-1-1-->
+                                      <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Speakers</span></a> </li>
+                                      <!--level2 nav-6-1-1-->
+                                      <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Stereos</span></a> </li>
+                                      <!--level2 nav-6-1-1-->
+                                      <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Subwoofers</span></a> </li>
+                                      <!--level2 nav-6-1-1-->
+                                    </ul>
+                                    <!--level1--> 
+                                    <!--sub sub category--> 
+                                  </li>
+                                  <!--level3 nav-6-1 parent item-->
+                                  <li class="level3 nav-6-1 parent item"> <a href="grid.html"><span>Body Parts</span></a> 
+                                    <!--sub sub category-->
+                                    <ul class="level1">
+                                      <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Bumpers</span></a> </li>
+                                      <!--level2 nav-6-1-1-->
+                                      <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Doors</span></a> </li>
+                                      <!--level2 nav-6-1-1-->
+                                      <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Fenders</span></a> </li>
+                                      <!--level2 nav-6-1-1-->
+                                      <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Grilles</span></a> </li>
+                                      <!--level2 nav-6-1-1-->
+                                      <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Hoods</span></a> </li>
+                                      <!--level2 nav-6-1-1-->
+                                    </ul>
+                                    <!--level1--> 
+                                    <!--sub sub category--> 
+                                  </li>
+                                  <!--level3 nav-6-1 parent item-->
+                                  <li class="level3 nav-6-1 parent item"> <a href="grid.html"><span>Exterior</span></a> 
+                                    <!--sub sub category-->
+                                    <ul class="level1">
+                                      <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Bed Accessories</span></a> </li>
+                                      <!--level2 nav-6-1-1-->
+                                      <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Body Kits</span></a> </li>
+                                      <!--level2 nav-6-1-1-->
+                                      <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Custom Grilles</span></a> </li>
+                                      <!--level2 nav-6-1-1-->
+                                      <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Car Covers</span></a> </li>
+                                      <!--level2 nav-6-1-1-->
+                                      <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Off-Road Bumpers</span></a> </li>
+                                      <!--level2 nav-6-1-1-->
+                                    </ul>
+                                    <!--level1--> 
+                                    <!--sub sub category--> 
+                                  </li>
+                                  <!--level3 nav-6-1 parent item-->
+                                  <li class="level3 nav-6-1 parent item"> <a href="grid.html"><span>Interior</span></a> 
+                                    <!--sub sub category-->
+                                    <ul class="level1">
+                                      <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Custom Gauges</span></a> </li>
+                                      <!--level2 nav-6-1-1-->
+                                      <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Dash Kits</span></a> </li>
+                                      <!--level2 nav-6-1-1-->
+                                      <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Seat Covers</span></a> </li>
+                                      <!--level2 nav-6-1-1-->
+                                      <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Steering Wheels</span></a> </li>
+                                      <!--level2 nav-6-1-1-->
+                                      <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Sun Shades</span></a> </li>
+                                      <!--level2 nav-6-1-1-->
+                                    </ul>
+                                    <!--level1--> 
+                                    <!--sub sub category--> 
+                                  </li>
+                                  <!--level3 nav-6-1 parent item-->
+                                  <li class="level3 nav-6-1 parent item"> <a href="grid.html"><span>Lighting</span></a> 
+                                    <!--sub sub category-->
+                                    <ul class="level1">
+                                      <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Fog Lights</span></a> </li>
+                                      <!--level2 nav-6-1-1-->
+                                      <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Headlights</span></a> </li>
+                                      <!--level2 nav-6-1-1-->
+                                      <li class="level2 nav-6-1-1"> <a href="grid.html"><span>LED Lights</span></a> </li>
+                                      <!--level2 nav-6-1-1-->
+                                      <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Off-Road Lights</span></a> </li>
+                                      <!--level2 nav-6-1-1-->
+                                      <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Signal Lights</span></a> </li>
+                                      <!--level2 nav-6-1-1-->
+                                    </ul>
+                                    <!--level1--> 
+                                    <!--sub sub category--> 
+                                  </li>
+                                  <!--level3 nav-6-1 parent item-->
+                                  <li class="level3 nav-6-1 parent item"> <a href="grid.html"><span>Performance</span></a> 
+                                    <!--sub sub category-->
+                                    <ul class="level1">
+                                      <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Air Intake Systems</span></a> </li>
+                                      <!--level2 nav-6-1-1-->
+                                      <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Brakes</span></a> </li>
+                                      <!--level2 nav-6-1-1-->
+                                      <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Exhaust Systems</span></a> </li>
+                                      <!--level2 nav-6-1-1-->
+                                      <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Power Adders</span></a> </li>
+                                      <!--level2 nav-6-1-1-->
+                                      <li class="level2 nav-6-1-1"> <a href="grid.html"><span>Racing Gear</span></a> </li>
+                                      <!--level2 nav-6-1-1-->
+                                    </ul>
+                                    <!--level1--> 
+                                    <!--sub sub category--> 
+                                  </li>
+                                  <!--level3 nav-6-1 parent item-->
+                                </ul>
+                                <!--level0--> 
+    </li>
+    <li><a href="#">Listing‎</a>
+      <ul class="level1">
+        <li class="level1 first"><a href="grid.html"><span>Car Grid</span></a></li>
+        <li class="level1 nav-10-2"> <a href="list.html"> <span>Car List</span> </a> </li>
+        <li class="level1 nav-10-3"> <a href="grid1.html"> <span>Accessories Grid</span> </a> </li>
+        <li class="level1 nav-10-4"> <a href="list1.html"> <span>Accessories List</span> </a> </li>
+        <li class="level1 first parent"><a href="car-detail.html"><span>Car Detail</span></a> </li>
+        <li class="level1 first parent"><a href="accessories-detail.html"><span>Accessories Detail</span></a> </li>
+      </ul>
+    </li>
+    <li><a href="grid.html">Blog</a>
+       <ul class="level1">
+          <li class="level1 first"><a href="blog.html"><span>Blog List</span></a></li>
+          <li class="level1 nav-10-2"> <a href="blog-detail.html"> <span>Blog Detail</span> </a> </li>
+        </ul>
+    </li>
+    <li><a href="compare.html">Sandwiches‎</a></li>
+    <li><a href="#">Pages</a>
+       <ul class="level1">
+                          <li class="level1"> <a href="about-us.html"> <span>About us</span> </a> </li>
+                          <li class="level1 nav-10-4"> <a href="shopping-cart.html"> <span>Cart Page</span> </a> </li>
+                          <li class="level1 first parent"><a href="checkout.html"><span>Checkout</span></a> 
+                            <!--sub sub category-->
+                            <ul class="level2 right-sub">
+                              <li class="level2 nav-2-1-1 first"><a href="checkout-method.html"><span>Method</span></a></li>
+                              <li class="level2 nav-2-1-5 last"><a href="checkout-billing-info.html"><span>Billing Info</span></a></li>
+                            </ul>
+                            <!--sub sub category--> 
+                          </li>
+                          <li class="level1 nav-10-4"> <a href="wishlist.html"> <span>Wishlist</span> </a> </li>
+                          <li class="level1"> <a href="dashboard.html"> <span>Dashboard</span> </a> </li>
+                          <li class="level1"> <a href="multiple-addresses.html"> <span>Multiple Addresses</span> </a> </li>
+                          <li class="level1"><a href="contact-us.html"><span>Contact us</span></a> </li>
+                          <li class="level1"><a href="404error.html"><span>404 Error Page</span></a> </li>
+                          <li class="level1"><a href="login.html"><span>Login Page</span></a> </li>
+                          <li class="level1"><a href="quickview.html"><span>Quick View</span></a> </li>
+                          <li class="level1"><a href="newsletter.html"><span>Newsletter</span></a> </li>
+                        </ul>
+    </li>
+    <li><a href="#">Custom</a></li>
+   </ul>
+</div>
+<!-- JavaScript --> 
+<script type="text/javascript" src="js/jquery.min.js"></script> 
+<script type="text/javascript" src="js/bootstrap.min.js"></script> 
+<script type="text/javascript" src="js/parallax.js"></script> 
+<script type="text/javascript" src="js/revslider.js"></script> 
+<script type="text/javascript" src="js/common.js"></script> 
+<script type="text/javascript" src="js/jquery.bxslider.min.js"></script> 
+<script type="text/javascript" src="js/jquery.flexslider.js"></script> 
+<script type="text/javascript" src="js/owl.carousel.min.js"></script> 
+<script type="text/javascript" src="js/jquery.mobile-menu.min.js"></script>
+
+
 </body>
+
 </html>
